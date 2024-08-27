@@ -1,0 +1,5 @@
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** wait: 没有子进程。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/role1_node.dir/all] 错误 2
+gmake: *** [Makefile:146: all] 中断

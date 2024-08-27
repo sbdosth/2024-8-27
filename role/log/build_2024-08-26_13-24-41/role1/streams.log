@@ -1,0 +1,68 @@
+[0.052s] Invoking command in '/home/hhh/role/build/role1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hhh/role/src/role1 -DCMAKE_INSTALL_PREFIX=/home/hhh/role/install/role1
+[0.536s] -- The C compiler identification is GNU 11.4.0
+[0.928s] -- The CXX compiler identification is GNU 11.4.0
+[0.981s] -- Detecting C compiler ABI info
+[1.348s] -- Detecting C compiler ABI info - done
+[1.372s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.373s] -- Detecting C compile features
+[1.376s] -- Detecting C compile features - done
+[1.387s] -- Detecting CXX compiler ABI info
+[1.777s] -- Detecting CXX compiler ABI info - done
+[1.802s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.803s] -- Detecting CXX compile features
+[1.804s] -- Detecting CXX compile features - done
+[1.827s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.389s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.729s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.889s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.916s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.936s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.029s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.212s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.218s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.622s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.725s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.870s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.909s] -- Looking for pthread.h
+[4.324s] -- Looking for pthread.h - found
+[4.324s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.640s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.643s] -- Found Threads: TRUE  
+[4.853s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.133s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.133s] -- Configured cppcheck include dirs: 
+[5.133s] -- Configured cppcheck exclude dirs and/or files: 
+[5.137s] -- Added test 'lint_cmake' to check CMake code style
+[5.144s] -- Added test 'uncrustify' to check C / C++ code style
+[5.144s] -- Configured uncrustify additional arguments: 
+[5.144s] -- Added test 'xmllint' to check XML markup files
+[5.152s] -- Configuring done
+[5.208s] -- Generating done
+[5.213s] -- Build files have been written to: /home/hhh/role/build/role1
+[5.243s] Invoked command in '/home/hhh/role/build/role1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hhh/role/src/role1 -DCMAKE_INSTALL_PREFIX=/home/hhh/role/install/role1
+[5.257s] Invoking command in '/home/hhh/role/build/role1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role1 -- -j8 -l8
+[5.494s] [ 50%] [32mBuilding CXX object CMakeFiles/role1_node.dir/src/role1.cpp.o[0m
+[20.021s] [100%] [32m[1mLinking CXX executable role1_node[0m
+[20.688s] [100%] Built target role1_node
+[20.744s] Invoked command in '/home/hhh/role/build/role1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role1 -- -j8 -l8
+[21.001s] Invoking command in '/home/hhh/role/build/role1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hhh/role/build/role1
+[21.045s] -- Install configuration: ""
+[21.046s] -- Installing: /home/hhh/role/install/role1/share/ament_index/resource_index/package_run_dependencies/role1
+[21.047s] -- Installing: /home/hhh/role/install/role1/share/ament_index/resource_index/parent_prefix_path/role1
+[21.048s] -- Installing: /home/hhh/role/install/role1/share/role1/environment/ament_prefix_path.sh
+[21.049s] -- Installing: /home/hhh/role/install/role1/share/role1/environment/ament_prefix_path.dsv
+[21.050s] -- Installing: /home/hhh/role/install/role1/share/role1/environment/path.sh
+[21.052s] -- Installing: /home/hhh/role/install/role1/share/role1/environment/path.dsv
+[21.053s] -- Installing: /home/hhh/role/install/role1/share/role1/local_setup.bash
+[21.054s] -- Installing: /home/hhh/role/install/role1/share/role1/local_setup.sh
+[21.055s] -- Installing: /home/hhh/role/install/role1/share/role1/local_setup.zsh
+[21.056s] -- Installing: /home/hhh/role/install/role1/share/role1/local_setup.dsv
+[21.056s] -- Installing: /home/hhh/role/install/role1/share/role1/package.dsv
+[21.058s] -- Installing: /home/hhh/role/install/role1/share/ament_index/resource_index/packages/role1
+[21.059s] -- Installing: /home/hhh/role/install/role1/share/role1/cmake/role1Config.cmake
+[21.060s] -- Installing: /home/hhh/role/install/role1/share/role1/cmake/role1Config-version.cmake
+[21.062s] -- Installing: /home/hhh/role/install/role1/share/role1/package.xml
+[21.063s] -- Installing: /home/hhh/role/install/role1/lib/role1/role1_node
+[21.070s] -- Set runtime path of "/home/hhh/role/install/role1/lib/role1/role1_node" to ""
+[21.077s] Invoked command in '/home/hhh/role/build/role1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hhh/role/build/role1

@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.001425] (role1) JobQueued: {'identifier': 'role1', 'dependencies': OrderedDict()}
+[0.001646] (role2) JobQueued: {'identifier': 'role2', 'dependencies': OrderedDict()}
+[0.001735] (role1) JobStarted: {'identifier': 'role1'}
+[0.025820] (role2) JobStarted: {'identifier': 'role2'}
+[0.040379] (role1) JobProgress: {'identifier': 'role1', 'progress': 'cmake'}
+[0.041687] (role1) Command: {'cmd': ['/usr/bin/cmake', '/home/hhh/role/src/role1', '-DCMAKE_INSTALL_PREFIX=/home/hhh/role/install/role1'], 'cwd': '/home/hhh/role/build/role1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhh'), ('SSH_CLIENT', '192.168.0.104 54588 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hhh/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hhh'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-78203816-cb08-4eaf-9cce-5c06ba3cfe5f.sock'), ('ROS_PYTHON_VERSION', '3'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hhh/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/hhh/role/build/role1'), ('SSH_CONNECTION', '192.168.0.104 54588 192.168.0.107 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.083152] (role2) JobProgress: {'identifier': 'role2', 'progress': 'cmake'}
+[0.083463] (role2) Command: {'cmd': ['/usr/bin/cmake', '/home/hhh/role/src/role2', '-DCMAKE_INSTALL_PREFIX=/home/hhh/role/install/role2'], 'cwd': '/home/hhh/role/build/role2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhh'), ('SSH_CLIENT', '192.168.0.104 54588 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hhh/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hhh'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-78203816-cb08-4eaf-9cce-5c06ba3cfe5f.sock'), ('ROS_PYTHON_VERSION', '3'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hhh/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/hhh/role/build/role2'), ('SSH_CONNECTION', '192.168.0.104 54588 192.168.0.107 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097700] (-) TimerEvent: {}
+[0.200129] (-) TimerEvent: {}
+[0.235187] (role1) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:29:\n'}
+[0.235816] (role1) StderrLine: {'line': b'  Parse error.  Expected a command name, got unquoted argument with text\n'}
+[0.235917] (role1) StderrLine: {'line': b'  "install{TARGETS".\n'}
+[0.236004] (role1) StderrLine: {'line': b'\n'}
+[0.236105] (role1) StderrLine: {'line': b'\x1b[0m\n'}
+[0.239932] (role1) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.255308] (role1) CommandEnded: {'returncode': 1}
+[0.300517] (-) TimerEvent: {}
+[0.401422] (-) TimerEvent: {}
+[0.437942] (role1) JobEnded: {'identifier': 'role1', 'rc': 1}
+[0.502597] (-) TimerEvent: {}
+[0.609523] (-) TimerEvent: {}
+[0.720310] (-) TimerEvent: {}
+[0.823081] (-) TimerEvent: {}
+[0.924454] (-) TimerEvent: {}
+[1.033550] (-) TimerEvent: {}
+[1.076805] (role2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.134465] (-) TimerEvent: {}
+[1.244416] (-) TimerEvent: {}
+[1.345723] (-) TimerEvent: {}
+[1.447406] (-) TimerEvent: {}
+[1.552884] (-) TimerEvent: {}
+[1.669459] (-) TimerEvent: {}
+[1.788450] (-) TimerEvent: {}
+[1.903990] (-) TimerEvent: {}
+[2.008105] (-) TimerEvent: {}
+[2.119811] (-) TimerEvent: {}
+[2.165871] (role2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.220356] (-) TimerEvent: {}
+[2.283539] (role2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.322709] (-) TimerEvent: {}
+[2.423633] (-) TimerEvent: {}
+[2.524496] (-) TimerEvent: {}
+[2.632055] (-) TimerEvent: {}
+[2.733793] (-) TimerEvent: {}
+[2.772060] (role2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.798730] (role2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.810302] (role2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.816363] (role2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.833490] (role2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.834009] (-) TimerEvent: {}
+[2.935569] (-) TimerEvent: {}
+[3.036827] (-) TimerEvent: {}
+[3.137602] (-) TimerEvent: {}
+[3.249874] (role2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.250244] (-) TimerEvent: {}
+[3.268115] (role2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.269546] (role2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.270788] (role2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.321122] (role2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.351459] (-) TimerEvent: {}
+[3.452461] (-) TimerEvent: {}
+[3.553344] (-) TimerEvent: {}
+[3.653960] (-) TimerEvent: {}
+[3.758503] (-) TimerEvent: {}
+[3.864331] (-) TimerEvent: {}
+[3.870570] (role2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.964720] (-) TimerEvent: {}
+[4.071057] (-) TimerEvent: {}
+[4.172715] (-) TimerEvent: {}
+[4.274111] (-) TimerEvent: {}
+[4.388504] (-) TimerEvent: {}
+[4.415087] (role2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.489443] (-) TimerEvent: {}
+[4.591048] (-) TimerEvent: {}
+[4.694807] (-) TimerEvent: {}
+[4.796756] (-) TimerEvent: {}
+[4.891109] (role2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.900345] (-) TimerEvent: {}
+[4.952756] (role2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.001286] (-) TimerEvent: {}
+[5.059199] (role2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.101671] (-) TimerEvent: {}
+[5.222520] (-) TimerEvent: {}
+[5.231295] (role2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.339951] (-) TimerEvent: {}
+[5.427159] (role2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.441860] (-) TimerEvent: {}
+[5.542862] (-) TimerEvent: {}
+[5.644376] (-) TimerEvent: {}
+[5.750913] (-) TimerEvent: {}
+[5.851987] (-) TimerEvent: {}
+[5.937382] (role2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.954742] (-) TimerEvent: {}
+[5.958892] (role2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.054977] (-) TimerEvent: {}
+[6.155894] (-) TimerEvent: {}
+[6.256842] (-) TimerEvent: {}
+[6.358478] (-) TimerEvent: {}
+[6.459442] (-) TimerEvent: {}
+[6.560544] (-) TimerEvent: {}
+[6.568952] (role2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.662341] (-) TimerEvent: {}
+[6.676299] (role2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.762590] (-) TimerEvent: {}
+[6.831041] (role2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.864530] (-) TimerEvent: {}
+[6.901132] (role2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.964915] (-) TimerEvent: {}
+[7.065945] (-) TimerEvent: {}
+[7.166848] (-) TimerEvent: {}
+[7.267802] (-) TimerEvent: {}
+[7.347591] (role2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.352128] (role2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.376602] (-) TimerEvent: {}
+[7.485844] (-) TimerEvent: {}
+[7.608464] (-) TimerEvent: {}
+[7.709743] (-) TimerEvent: {}
+[7.728363] (role2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.729207] (role2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.810351] (-) TimerEvent: {}
+[7.911973] (-) TimerEvent: {}
+[8.013162] (-) TimerEvent: {}
+[8.119042] (-) TimerEvent: {}
+[8.130297] (role2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.232516] (-) TimerEvent: {}
+[8.338098] (-) TimerEvent: {}
+[8.438965] (-) TimerEvent: {}
+[8.503539] (role2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.504075] (role2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.504552] (role2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.511012] (role2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.527441] (role2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.527970] (role2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.534072] (role2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.540288] (role2) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.540745] (-) TimerEvent: {}
+[8.570230] (role2) StdoutLine: {'line': b'-- Generating done\n'}
+[8.581226] (role2) StdoutLine: {'line': b'-- Build files have been written to: /home/hhh/role/build/role2\n'}
+[8.607278] (role2) JobEnded: {'identifier': 'role2', 'rc': 'SIGINT'}
+[8.620324] (-) EventReactorShutdown: {}

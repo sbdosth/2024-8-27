@@ -1,0 +1,42 @@
+[0.065s] Invoking command in '/home/hhh/role/build/role2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hhh/role/src/role2 -DCMAKE_INSTALL_PREFIX=/home/hhh/role/install/role2
+[1.051s] -- The C compiler identification is GNU 11.4.0
+[2.140s] -- The CXX compiler identification is GNU 11.4.0
+[2.258s] -- Detecting C compiler ABI info
+[2.746s] -- Detecting C compiler ABI info - done
+[2.773s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.785s] -- Detecting C compile features
+[2.791s] -- Detecting C compile features - done
+[2.808s] -- Detecting CXX compiler ABI info
+[3.224s] -- Detecting CXX compiler ABI info - done
+[3.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.244s] -- Detecting CXX compile features
+[3.245s] -- Detecting CXX compile features - done
+[3.295s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.845s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.390s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[4.866s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.927s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.034s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.912s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.933s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.543s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.651s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.806s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.875s] -- Looking for pthread.h
+[7.322s] -- Looking for pthread.h - found
+[7.327s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.703s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.703s] -- Found Threads: TRUE  
+[8.105s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.478s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.478s] -- Configured cppcheck include dirs: 
+[8.479s] -- Configured cppcheck exclude dirs and/or files: 
+[8.485s] -- Added test 'lint_cmake' to check CMake code style
+[8.502s] -- Added test 'uncrustify' to check C / C++ code style
+[8.502s] -- Configured uncrustify additional arguments: 
+[8.509s] -- Added test 'xmllint' to check XML markup files
+[8.515s] -- Configuring done
+[8.544s] -- Generating done
+[8.556s] -- Build files have been written to: /home/hhh/role/build/role2

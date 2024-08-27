@@ -1,0 +1,26 @@
+[0.116s] Invoking command in '/home/hhh/role/build/role2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role2 -- -j8 -l8
+[0.753s] [35m[1mConsolidate compiler generated dependencies of target role2_node[0m
+[0.857s] [ 50%] [32mBuilding CXX object CMakeFiles/role2_node.dir/src/role2.cpp.o[0m
+[37.326s] [100%] [32m[1mLinking CXX executable role2_node[0m
+[39.420s] [100%] Built target role2_node
+[39.847s] Invoked command in '/home/hhh/role/build/role2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role2 -- -j8 -l8
+[40.418s] Invoking command in '/home/hhh/role/build/role2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hhh/role/build/role2
+[40.464s] -- Install configuration: ""
+[40.479s] -- Up-to-date: /home/hhh/role/install/role2/share/ament_index/resource_index/package_run_dependencies/role2
+[40.486s] -- Up-to-date: /home/hhh/role/install/role2/share/ament_index/resource_index/parent_prefix_path/role2
+[40.494s] -- Up-to-date: /home/hhh/role/install/role2/share/role2/environment/ament_prefix_path.sh
+[40.496s] -- Up-to-date: /home/hhh/role/install/role2/share/role2/environment/ament_prefix_path.dsv
+[40.496s] -- Up-to-date: /home/hhh/role/install/role2/share/role2/environment/path.sh
+[40.496s] -- Up-to-date: /home/hhh/role/install/role2/share/role2/environment/path.dsv
+[40.497s] -- Up-to-date: /home/hhh/role/install/role2/share/role2/local_setup.bash
+[40.503s] -- Up-to-date: /home/hhh/role/install/role2/share/role2/local_setup.sh
+[40.504s] -- Up-to-date: /home/hhh/role/install/role2/share/role2/local_setup.zsh
+[40.504s] -- Up-to-date: /home/hhh/role/install/role2/share/role2/local_setup.dsv
+[40.504s] -- Installing: /home/hhh/role/install/role2/share/role2/package.dsv
+[40.510s] -- Up-to-date: /home/hhh/role/install/role2/share/ament_index/resource_index/packages/role2
+[40.511s] -- Up-to-date: /home/hhh/role/install/role2/share/role2/cmake/role2Config.cmake
+[40.511s] -- Up-to-date: /home/hhh/role/install/role2/share/role2/cmake/role2Config-version.cmake
+[40.514s] -- Up-to-date: /home/hhh/role/install/role2/share/role2/package.xml
+[40.523s] -- Installing: /home/hhh/role/install/role2/lib/role2/role2_node
+[40.559s] -- Set runtime path of "/home/hhh/role/install/role2/lib/role2/role2_node" to ""
+[40.572s] Invoked command in '/home/hhh/role/build/role2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hhh/role/build/role2

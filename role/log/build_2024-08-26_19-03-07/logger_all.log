@@ -1,0 +1,204 @@
+[1.033s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.034s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x790dc63734c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x790dc64b40d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x790dc64b40d0>>)
+[2.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.960s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hhh/role'
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.071s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.073s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.075s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.076s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/role1) by extensions ['ignore', 'ignore_ament_install']
+[3.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/role1) by extension 'ignore'
+[3.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/role1) by extension 'ignore_ament_install'
+[3.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/role1) by extensions ['colcon_pkg']
+[3.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/role1) by extension 'colcon_pkg'
+[3.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/role1) by extensions ['colcon_meta']
+[3.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/role1) by extension 'colcon_meta'
+[3.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/role1) by extensions ['ros']
+[3.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/role1) by extension 'ros'
+[3.106s] DEBUG:colcon.colcon_core.package_identification:Package 'src/role1' with type 'ros.ament_cmake' and name 'role1'
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/role2) by extensions ['ignore', 'ignore_ament_install']
+[3.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/role2) by extension 'ignore'
+[3.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/role2) by extension 'ignore_ament_install'
+[3.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/role2) by extensions ['colcon_pkg']
+[3.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/role2) by extension 'colcon_pkg'
+[3.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/role2) by extensions ['colcon_meta']
+[3.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/role2) by extension 'colcon_meta'
+[3.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/role2) by extensions ['ros']
+[3.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/role2) by extension 'ros'
+[3.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/role2' with type 'ros.ament_cmake' and name 'role2'
+[3.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.319s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[3.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.591s] Level 5:colcon.colcon_core.verb:set package 'role1' build argument 'cmake_args' from command line to 'None'
+[3.592s] Level 5:colcon.colcon_core.verb:set package 'role1' build argument 'cmake_target' from command line to 'None'
+[3.592s] Level 5:colcon.colcon_core.verb:set package 'role1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.592s] Level 5:colcon.colcon_core.verb:set package 'role1' build argument 'cmake_clean_cache' from command line to 'False'
+[3.592s] Level 5:colcon.colcon_core.verb:set package 'role1' build argument 'cmake_clean_first' from command line to 'False'
+[3.592s] Level 5:colcon.colcon_core.verb:set package 'role1' build argument 'cmake_force_configure' from command line to 'False'
+[3.592s] Level 5:colcon.colcon_core.verb:set package 'role1' build argument 'ament_cmake_args' from command line to 'None'
+[3.593s] Level 5:colcon.colcon_core.verb:set package 'role1' build argument 'catkin_cmake_args' from command line to 'None'
+[3.593s] Level 5:colcon.colcon_core.verb:set package 'role1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.593s] DEBUG:colcon.colcon_core.verb:Building package 'role1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hhh/role/build/role1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hhh/role/install/role1', 'merge_install': False, 'path': '/home/hhh/role/src/role1', 'symlink_install': False, 'test_result_base': None}
+[3.594s] Level 5:colcon.colcon_core.verb:set package 'role2' build argument 'cmake_args' from command line to 'None'
+[3.595s] Level 5:colcon.colcon_core.verb:set package 'role2' build argument 'cmake_target' from command line to 'None'
+[3.595s] Level 5:colcon.colcon_core.verb:set package 'role2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.595s] Level 5:colcon.colcon_core.verb:set package 'role2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.595s] Level 5:colcon.colcon_core.verb:set package 'role2' build argument 'cmake_clean_first' from command line to 'False'
+[3.595s] Level 5:colcon.colcon_core.verb:set package 'role2' build argument 'cmake_force_configure' from command line to 'False'
+[3.595s] Level 5:colcon.colcon_core.verb:set package 'role2' build argument 'ament_cmake_args' from command line to 'None'
+[3.595s] Level 5:colcon.colcon_core.verb:set package 'role2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.595s] Level 5:colcon.colcon_core.verb:set package 'role2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.596s] DEBUG:colcon.colcon_core.verb:Building package 'role2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hhh/role/build/role2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hhh/role/install/role2', 'merge_install': False, 'path': '/home/hhh/role/src/role2', 'symlink_install': False, 'test_result_base': None}
+[3.596s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.603s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.604s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hhh/role/src/role1' with build type 'ament_cmake'
+[3.605s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hhh/role/src/role1'
+[3.630s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.631s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.646s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hhh/role/src/role2' with build type 'ament_cmake'
+[3.647s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hhh/role/src/role2'
+[3.648s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hhh/role/build/role1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role1 -- -j8 -l8
+[3.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hhh/role/build/role2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role2 -- -j8 -l8
+[4.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hhh/role/build/role2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role2 -- -j8 -l8
+[5.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hhh/role/build/role2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hhh/role/build/role2
+[5.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(role2)
+[5.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hhh/role/build/role2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hhh/role/build/role2
+[5.349s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2' for CMake module files
+[5.353s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2' for CMake config files
+[5.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('role2', 'cmake_prefix_path')
+[5.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hhh/role/install/role2/share/role2/hook/cmake_prefix_path.ps1'
+[5.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hhh/role/install/role2/share/role2/hook/cmake_prefix_path.dsv'
+[5.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hhh/role/install/role2/share/role2/hook/cmake_prefix_path.sh'
+[5.376s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2/lib'
+[5.377s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2/bin'
+[5.378s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2/lib/pkgconfig/role2.pc'
+[5.380s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2/lib/python3.10/site-packages'
+[5.381s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2/bin'
+[5.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role2/share/role2/package.ps1'
+[5.390s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hhh/role/install/role2/share/role2/package.dsv'
+[5.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role2/share/role2/package.sh'
+[5.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role2/share/role2/package.bash'
+[5.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role2/share/role2/package.zsh'
+[5.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hhh/role/install/role2/share/colcon-core/packages/role2)
+[5.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(role2)
+[5.659s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2' for CMake module files
+[5.662s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2' for CMake config files
+[5.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('role2', 'cmake_prefix_path')
+[5.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hhh/role/install/role2/share/role2/hook/cmake_prefix_path.ps1'
+[5.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hhh/role/install/role2/share/role2/hook/cmake_prefix_path.dsv'
+[5.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hhh/role/install/role2/share/role2/hook/cmake_prefix_path.sh'
+[5.672s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2/lib'
+[5.672s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2/bin'
+[5.673s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2/lib/pkgconfig/role2.pc'
+[5.674s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2/lib/python3.10/site-packages'
+[5.675s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role2/bin'
+[5.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role2/share/role2/package.ps1'
+[5.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hhh/role/install/role2/share/role2/package.dsv'
+[5.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role2/share/role2/package.sh'
+[5.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role2/share/role2/package.bash'
+[5.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role2/share/role2/package.zsh'
+[5.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hhh/role/install/role2/share/colcon-core/packages/role2)
+[29.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hhh/role/build/role1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role1 -- -j8 -l8
+[29.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hhh/role/build/role1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hhh/role/build/role1
+[29.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(role1)
+[29.778s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1' for CMake module files
+[29.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hhh/role/build/role1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hhh/role/build/role1
+[29.786s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1' for CMake config files
+[29.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('role1', 'cmake_prefix_path')
+[29.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hhh/role/install/role1/share/role1/hook/cmake_prefix_path.ps1'
+[29.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hhh/role/install/role1/share/role1/hook/cmake_prefix_path.dsv'
+[29.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hhh/role/install/role1/share/role1/hook/cmake_prefix_path.sh'
+[29.797s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1/lib'
+[29.797s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1/bin'
+[29.798s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1/lib/pkgconfig/role1.pc'
+[29.799s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1/lib/python3.10/site-packages'
+[29.800s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1/bin'
+[29.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role1/share/role1/package.ps1'
+[29.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hhh/role/install/role1/share/role1/package.dsv'
+[29.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role1/share/role1/package.sh'
+[29.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role1/share/role1/package.bash'
+[29.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role1/share/role1/package.zsh'
+[29.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hhh/role/install/role1/share/colcon-core/packages/role1)
+[29.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(role1)
+[29.989s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1' for CMake module files
+[29.991s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1' for CMake config files
+[29.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('role1', 'cmake_prefix_path')
+[29.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hhh/role/install/role1/share/role1/hook/cmake_prefix_path.ps1'
+[29.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hhh/role/install/role1/share/role1/hook/cmake_prefix_path.dsv'
+[29.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hhh/role/install/role1/share/role1/hook/cmake_prefix_path.sh'
+[30.000s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1/lib'
+[30.000s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1/bin'
+[30.001s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1/lib/pkgconfig/role1.pc'
+[30.001s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1/lib/python3.10/site-packages'
+[30.002s] Level 1:colcon.colcon_core.environment:checking '/home/hhh/role/install/role1/bin'
+[30.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role1/share/role1/package.ps1'
+[30.004s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hhh/role/install/role1/share/role1/package.dsv'
+[30.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role1/share/role1/package.sh'
+[30.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role1/share/role1/package.bash'
+[30.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/hhh/role/install/role1/share/role1/package.zsh'
+[30.012s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hhh/role/install/role1/share/colcon-core/packages/role1)
+[30.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[30.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[30.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[30.017s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[30.065s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.066s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.066s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[30.725s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[30.727s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hhh/role/install/local_setup.ps1'
+[30.731s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hhh/role/install/_local_setup_util_ps1.py'
+[30.739s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hhh/role/install/setup.ps1'
+[30.745s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hhh/role/install/local_setup.sh'
+[30.750s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hhh/role/install/_local_setup_util_sh.py'
+[30.753s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hhh/role/install/setup.sh'
+[30.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hhh/role/install/local_setup.bash'
+[30.761s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hhh/role/install/setup.bash'
+[30.766s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hhh/role/install/local_setup.zsh'
+[30.771s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hhh/role/install/setup.zsh'

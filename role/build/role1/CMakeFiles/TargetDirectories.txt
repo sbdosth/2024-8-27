@@ -1,0 +1,10 @@
+/home/hhh/role/build/role1/CMakeFiles/uninstall.dir
+/home/hhh/role/build/role1/CMakeFiles/role1_uninstall.dir
+/home/hhh/role/build/role1/CMakeFiles/role1_node.dir
+/home/hhh/role/build/role1/CMakeFiles/test.dir
+/home/hhh/role/build/role1/CMakeFiles/edit_cache.dir
+/home/hhh/role/build/role1/CMakeFiles/rebuild_cache.dir
+/home/hhh/role/build/role1/CMakeFiles/list_install_components.dir
+/home/hhh/role/build/role1/CMakeFiles/install.dir
+/home/hhh/role/build/role1/CMakeFiles/install/local.dir
+/home/hhh/role/build/role1/CMakeFiles/install/strip.dir

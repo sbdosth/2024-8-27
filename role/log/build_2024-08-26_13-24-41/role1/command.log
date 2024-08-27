@@ -1,0 +1,6 @@
+Invoking command in '/home/hhh/role/build/role1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hhh/role/src/role1 -DCMAKE_INSTALL_PREFIX=/home/hhh/role/install/role1
+Invoked command in '/home/hhh/role/build/role1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hhh/role/src/role1 -DCMAKE_INSTALL_PREFIX=/home/hhh/role/install/role1
+Invoking command in '/home/hhh/role/build/role1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role1 -- -j8 -l8
+Invoked command in '/home/hhh/role/build/role1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role1 -- -j8 -l8
+Invoking command in '/home/hhh/role/build/role1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hhh/role/build/role1
+Invoked command in '/home/hhh/role/build/role1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hhh/role/build/role1

@@ -1,0 +1,11 @@
+[0.116s] Invoking command in '/home/hhh/role/build/role1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role1 -- -j8 -l8
+[0.631s] [35m[1mConsolidate compiler generated dependencies of target role1_node[0m
+[0.727s] [ 50%] [32mBuilding CXX object CMakeFiles/role1_node.dir/src/role1.cpp.o[0m
+[2.795s] [01m[K/home/hhh/role/src/role1/src/role1.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: 没有那个文件或目录
+[2.796s]     2 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[2.796s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.796s] compilation terminated.
+[2.812s] gmake[2]: *** [CMakeFiles/role1_node.dir/build.make:76：CMakeFiles/role1_node.dir/src/role1.cpp.o] 错误 1
+[2.814s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/role1_node.dir/all] 错误 2
+[2.814s] gmake: *** [Makefile:146：all] 错误 2
+[2.824s] Invoked command in '/home/hhh/role/build/role1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role1 -- -j8 -l8

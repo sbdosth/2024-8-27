@@ -1,0 +1,1 @@
+Invoking command in '/home/hhh/role/build/role2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hhh/role/src/role2 -DCMAKE_INSTALL_PREFIX=/home/hhh/role/install/role2

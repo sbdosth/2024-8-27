@@ -1,0 +1,16 @@
+/home/hhh/role/install/role2/share/ament_index/resource_index/package_run_dependencies/role2
+/home/hhh/role/install/role2/share/ament_index/resource_index/parent_prefix_path/role2
+/home/hhh/role/install/role2/share/role2/environment/ament_prefix_path.sh
+/home/hhh/role/install/role2/share/role2/environment/ament_prefix_path.dsv
+/home/hhh/role/install/role2/share/role2/environment/path.sh
+/home/hhh/role/install/role2/share/role2/environment/path.dsv
+/home/hhh/role/install/role2/share/role2/local_setup.bash
+/home/hhh/role/install/role2/share/role2/local_setup.sh
+/home/hhh/role/install/role2/share/role2/local_setup.zsh
+/home/hhh/role/install/role2/share/role2/local_setup.dsv
+/home/hhh/role/install/role2/share/role2/package.dsv
+/home/hhh/role/install/role2/share/ament_index/resource_index/packages/role2
+/home/hhh/role/install/role2/share/role2/cmake/role2Config.cmake
+/home/hhh/role/install/role2/share/role2/cmake/role2Config-version.cmake
+/home/hhh/role/install/role2/share/role2/package.xml
+/home/hhh/role/install/role2/lib/role2/role2_node

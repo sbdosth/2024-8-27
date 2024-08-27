@@ -1,0 +1,9 @@
+[0.053s] Invoking command in '/home/hhh/role/build/role2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role2 -- -j8 -l8
+[0.137s] [31mCMake Error at CMakeLists.txt:29:
+[0.138s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.139s]   "install{TARGETS".
+[0.140s] 
+[0.140s] [0m
+[0.141s] -- Configuring incomplete, errors occurred!
+[0.141s] See also "/home/hhh/role/build/role2/CMakeFiles/CMakeOutput.log".
+[0.144s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1

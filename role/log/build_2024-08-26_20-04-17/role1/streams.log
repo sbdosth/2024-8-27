@@ -1,0 +1,9 @@
+[0.072s] Invoking command in '/home/hhh/role/build/role1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role1 -- -j8 -l8
+[0.999s] [35m[1mConsolidate compiler generated dependencies of target role1_node[0m
+[1.063s] [ 50%] [32mBuilding CXX object CMakeFiles/role1_node.dir/src/role1.cpp.o[0m
+[1.225s] gmake[2]: *** wait: 没有子进程。 停止。
+[1.226s] gmake[2]: *** 正在等待未完成的任务....
+[1.226s] gmake[2]: *** wait: 没有子进程。 停止。
+[1.227s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/role1_node.dir/all] 错误 2
+[1.227s] gmake: *** [Makefile:146: all] 中断
+[1.233s] Invoked command in '/home/hhh/role/build/role1' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hhh/role/build/role1 -- -j8 -l8

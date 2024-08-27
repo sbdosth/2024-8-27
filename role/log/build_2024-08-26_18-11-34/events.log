@@ -1,0 +1,241 @@
+[0.000000] (-) TimerEvent: {}
+[0.003826] (-) JobUnselected: {'identifier': 'role2'}
+[0.004132] (role1) JobQueued: {'identifier': 'role1', 'dependencies': OrderedDict()}
+[0.004652] (role1) JobStarted: {'identifier': 'role1'}
+[0.054661] (role1) JobProgress: {'identifier': 'role1', 'progress': 'cmake'}
+[0.072299] (role1) JobProgress: {'identifier': 'role1', 'progress': 'build'}
+[0.072625] (role1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hhh/role/build/role1', '--', '-j8', '-l8'], 'cwd': '/home/hhh/role/build/role1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhh'), ('SSH_CLIENT', '192.168.0.102 50828 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hhh/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hhh'), ('OLDPWD', '/home/hhh/role/src'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d5979250-5c15-4cf4-a88a-976a1e1132cf.sock'), ('ROS_PYTHON_VERSION', '3'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hhh/role/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hhh/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/hhh/role/install/role2:/home/hhh/role/install/role1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/hhh/role/build/role1'), ('SSH_CONNECTION', '192.168.0.102 50828 192.168.0.103 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hhh/role/install/role2:/home/hhh/role/install/role1:/opt/ros/humble')]), 'shell': False}
+[0.107405] (-) TimerEvent: {}
+[0.209350] (-) TimerEvent: {}
+[0.310611] (-) TimerEvent: {}
+[0.418680] (-) TimerEvent: {}
+[0.520194] (-) TimerEvent: {}
+[0.622024] (-) TimerEvent: {}
+[0.727344] (-) TimerEvent: {}
+[0.752870] (role1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/role1_node.dir/src/role1.cpp.o\x1b[0m\n'}
+[0.827687] (-) TimerEvent: {}
+[0.928620] (-) TimerEvent: {}
+[1.034071] (-) TimerEvent: {}
+[1.137315] (-) TimerEvent: {}
+[1.239261] (-) TimerEvent: {}
+[1.341253] (-) TimerEvent: {}
+[1.448091] (-) TimerEvent: {}
+[1.549146] (-) TimerEvent: {}
+[1.651684] (-) TimerEvent: {}
+[1.753658] (-) TimerEvent: {}
+[1.856869] (-) TimerEvent: {}
+[1.958476] (-) TimerEvent: {}
+[2.066650] (-) TimerEvent: {}
+[2.179432] (-) TimerEvent: {}
+[2.281383] (-) TimerEvent: {}
+[2.384277] (-) TimerEvent: {}
+[2.494342] (-) TimerEvent: {}
+[2.599445] (-) TimerEvent: {}
+[2.713852] (-) TimerEvent: {}
+[2.815433] (-) TimerEvent: {}
+[2.916525] (-) TimerEvent: {}
+[3.026063] (-) TimerEvent: {}
+[3.127680] (-) TimerEvent: {}
+[3.237510] (-) TimerEvent: {}
+[3.346802] (-) TimerEvent: {}
+[3.448861] (-) TimerEvent: {}
+[3.557433] (-) TimerEvent: {}
+[3.662149] (-) TimerEvent: {}
+[3.763099] (-) TimerEvent: {}
+[3.864089] (-) TimerEvent: {}
+[3.967520] (-) TimerEvent: {}
+[4.069067] (-) TimerEvent: {}
+[4.181524] (-) TimerEvent: {}
+[4.282756] (-) TimerEvent: {}
+[4.385748] (-) TimerEvent: {}
+[4.487295] (-) TimerEvent: {}
+[4.588614] (-) TimerEvent: {}
+[4.690199] (-) TimerEvent: {}
+[4.797969] (-) TimerEvent: {}
+[4.899319] (-) TimerEvent: {}
+[5.000324] (-) TimerEvent: {}
+[5.112805] (-) TimerEvent: {}
+[5.214686] (-) TimerEvent: {}
+[5.319097] (-) TimerEvent: {}
+[5.425277] (-) TimerEvent: {}
+[5.527283] (-) TimerEvent: {}
+[5.629158] (-) TimerEvent: {}
+[5.730592] (-) TimerEvent: {}
+[5.833276] (-) TimerEvent: {}
+[5.934202] (-) TimerEvent: {}
+[6.039882] (-) TimerEvent: {}
+[6.141644] (-) TimerEvent: {}
+[6.243804] (-) TimerEvent: {}
+[6.347562] (-) TimerEvent: {}
+[6.448488] (-) TimerEvent: {}
+[6.550476] (-) TimerEvent: {}
+[6.663473] (-) TimerEvent: {}
+[6.776311] (-) TimerEvent: {}
+[6.888093] (-) TimerEvent: {}
+[6.997300] (-) TimerEvent: {}
+[7.116254] (-) TimerEvent: {}
+[7.230086] (-) TimerEvent: {}
+[7.331757] (-) TimerEvent: {}
+[7.434062] (-) TimerEvent: {}
+[7.543271] (-) TimerEvent: {}
+[7.644705] (-) TimerEvent: {}
+[7.747146] (-) TimerEvent: {}
+[7.865276] (-) TimerEvent: {}
+[7.988164] (-) TimerEvent: {}
+[8.094606] (-) TimerEvent: {}
+[8.196095] (-) TimerEvent: {}
+[8.298099] (-) TimerEvent: {}
+[8.399647] (-) TimerEvent: {}
+[8.500721] (-) TimerEvent: {}
+[8.602623] (-) TimerEvent: {}
+[8.703781] (-) TimerEvent: {}
+[8.808101] (-) TimerEvent: {}
+[8.919360] (-) TimerEvent: {}
+[9.031205] (-) TimerEvent: {}
+[9.135069] (-) TimerEvent: {}
+[9.239013] (-) TimerEvent: {}
+[9.342413] (-) TimerEvent: {}
+[9.452028] (-) TimerEvent: {}
+[9.556352] (-) TimerEvent: {}
+[9.657541] (-) TimerEvent: {}
+[9.761302] (-) TimerEvent: {}
+[9.864296] (-) TimerEvent: {}
+[9.967106] (-) TimerEvent: {}
+[10.070620] (-) TimerEvent: {}
+[10.175176] (-) TimerEvent: {}
+[10.276095] (-) TimerEvent: {}
+[10.377171] (-) TimerEvent: {}
+[10.482029] (-) TimerEvent: {}
+[10.583272] (-) TimerEvent: {}
+[10.685491] (-) TimerEvent: {}
+[10.787471] (-) TimerEvent: {}
+[10.888506] (-) TimerEvent: {}
+[10.990102] (-) TimerEvent: {}
+[11.091205] (-) TimerEvent: {}
+[11.196047] (-) TimerEvent: {}
+[11.297003] (-) TimerEvent: {}
+[11.402095] (-) TimerEvent: {}
+[11.503260] (-) TimerEvent: {}
+[11.608643] (-) TimerEvent: {}
+[11.715435] (-) TimerEvent: {}
+[11.827829] (-) TimerEvent: {}
+[11.939155] (-) TimerEvent: {}
+[12.054161] (-) TimerEvent: {}
+[12.165696] (-) TimerEvent: {}
+[12.273304] (-) TimerEvent: {}
+[12.379385] (-) TimerEvent: {}
+[12.481717] (-) TimerEvent: {}
+[12.583156] (-) TimerEvent: {}
+[12.684497] (-) TimerEvent: {}
+[12.787297] (-) TimerEvent: {}
+[12.889374] (-) TimerEvent: {}
+[12.994664] (-) TimerEvent: {}
+[13.095449] (-) TimerEvent: {}
+[13.197456] (-) TimerEvent: {}
+[13.307141] (-) TimerEvent: {}
+[13.409779] (-) TimerEvent: {}
+[13.510781] (-) TimerEvent: {}
+[13.621572] (-) TimerEvent: {}
+[13.733079] (-) TimerEvent: {}
+[13.834438] (-) TimerEvent: {}
+[13.935831] (-) TimerEvent: {}
+[14.037151] (-) TimerEvent: {}
+[14.138069] (-) TimerEvent: {}
+[14.238887] (-) TimerEvent: {}
+[14.342045] (-) TimerEvent: {}
+[14.443195] (-) TimerEvent: {}
+[14.545461] (-) TimerEvent: {}
+[14.646403] (-) TimerEvent: {}
+[14.754122] (-) TimerEvent: {}
+[14.856498] (-) TimerEvent: {}
+[14.959443] (-) TimerEvent: {}
+[15.061562] (-) TimerEvent: {}
+[15.164855] (-) TimerEvent: {}
+[15.276403] (-) TimerEvent: {}
+[15.378249] (-) TimerEvent: {}
+[15.479179] (-) TimerEvent: {}
+[15.581245] (-) TimerEvent: {}
+[15.698230] (-) TimerEvent: {}
+[15.799187] (-) TimerEvent: {}
+[15.900150] (-) TimerEvent: {}
+[16.001162] (-) TimerEvent: {}
+[16.108197] (-) TimerEvent: {}
+[16.209136] (-) TimerEvent: {}
+[16.311318] (-) TimerEvent: {}
+[16.416148] (-) TimerEvent: {}
+[16.520639] (-) TimerEvent: {}
+[16.623391] (-) TimerEvent: {}
+[16.727150] (-) TimerEvent: {}
+[16.828290] (-) TimerEvent: {}
+[16.930747] (-) TimerEvent: {}
+[17.039104] (-) TimerEvent: {}
+[17.143131] (-) TimerEvent: {}
+[17.252825] (-) TimerEvent: {}
+[17.353595] (-) TimerEvent: {}
+[17.455308] (-) TimerEvent: {}
+[17.557213] (-) TimerEvent: {}
+[17.667720] (-) TimerEvent: {}
+[17.769832] (-) TimerEvent: {}
+[17.875033] (-) TimerEvent: {}
+[17.975819] (-) TimerEvent: {}
+[18.104692] (-) TimerEvent: {}
+[18.210481] (-) TimerEvent: {}
+[18.312249] (-) TimerEvent: {}
+[18.414484] (-) TimerEvent: {}
+[18.516239] (-) TimerEvent: {}
+[18.630189] (-) TimerEvent: {}
+[18.742754] (-) TimerEvent: {}
+[18.856039] (-) TimerEvent: {}
+[18.959585] (-) TimerEvent: {}
+[19.064775] (-) TimerEvent: {}
+[19.167240] (-) TimerEvent: {}
+[19.276405] (-) TimerEvent: {}
+[19.382397] (-) TimerEvent: {}
+[19.492079] (-) TimerEvent: {}
+[19.618284] (-) TimerEvent: {}
+[19.730363] (-) TimerEvent: {}
+[19.831969] (-) TimerEvent: {}
+[19.940786] (-) TimerEvent: {}
+[19.943392] (role1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable role1_node\x1b[0m\n'}
+[20.042129] (-) TimerEvent: {}
+[20.145068] (-) TimerEvent: {}
+[20.248157] (-) TimerEvent: {}
+[20.349277] (-) TimerEvent: {}
+[20.450433] (-) TimerEvent: {}
+[20.551352] (-) TimerEvent: {}
+[20.653065] (-) TimerEvent: {}
+[20.755580] (-) TimerEvent: {}
+[20.856734] (-) TimerEvent: {}
+[20.958115] (-) TimerEvent: {}
+[21.059368] (-) TimerEvent: {}
+[21.138527] (role1) StdoutLine: {'line': b'[100%] Built target role1_node\n'}
+[21.165136] (-) TimerEvent: {}
+[21.188367] (role1) CommandEnded: {'returncode': 0}
+[21.265762] (-) TimerEvent: {}
+[21.367196] (-) TimerEvent: {}
+[21.383802] (role1) JobProgress: {'identifier': 'role1', 'progress': 'install'}
+[21.418452] (role1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hhh/role/build/role1'], 'cwd': '/home/hhh/role/build/role1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hhh'), ('SSH_CLIENT', '192.168.0.102 50828 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hhh/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hhh'), ('OLDPWD', '/home/hhh/role/src'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d5979250-5c15-4cf4-a88a-976a1e1132cf.sock'), ('ROS_PYTHON_VERSION', '3'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/hhh/role/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hhh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hhh/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/hhh/role/install/role2:/home/hhh/role/install/role1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/hhh/role/build/role1'), ('SSH_CONNECTION', '192.168.0.102 50828 192.168.0.103 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hhh/role/install/role2:/home/hhh/role/install/role1:/opt/ros/humble')]), 'shell': False}
+[21.429998] (role1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.431168] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/ament_index/resource_index/package_run_dependencies/role1\n'}
+[21.431791] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/ament_index/resource_index/parent_prefix_path/role1\n'}
+[21.432197] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/role1/environment/ament_prefix_path.sh\n'}
+[21.432495] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/role1/environment/ament_prefix_path.dsv\n'}
+[21.432776] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/role1/environment/path.sh\n'}
+[21.433291] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/role1/environment/path.dsv\n'}
+[21.433601] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/role1/local_setup.bash\n'}
+[21.433884] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/role1/local_setup.sh\n'}
+[21.434220] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/role1/local_setup.zsh\n'}
+[21.434332] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/role1/local_setup.dsv\n'}
+[21.434413] (role1) StdoutLine: {'line': b'-- Installing: /home/hhh/role/install/role1/share/role1/package.dsv\n'}
+[21.434493] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/ament_index/resource_index/packages/role1\n'}
+[21.434574] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/role1/cmake/role1Config.cmake\n'}
+[21.434653] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/role1/cmake/role1Config-version.cmake\n'}
+[21.434744] (role1) StdoutLine: {'line': b'-- Up-to-date: /home/hhh/role/install/role1/share/role1/package.xml\n'}
+[21.434907] (role1) StdoutLine: {'line': b'-- Installing: /home/hhh/role/install/role1/lib/role1/role1_node\n'}
+[21.436455] (role1) StdoutLine: {'line': b'-- Set runtime path of "/home/hhh/role/install/role1/lib/role1/role1_node" to ""\n'}
+[21.438781] (role1) CommandEnded: {'returncode': 0}
+[21.469759] (-) TimerEvent: {}
+[21.575615] (-) TimerEvent: {}
+[21.674287] (role1) JobEnded: {'identifier': 'role1', 'rc': 0}
+[21.676562] (-) TimerEvent: {}
+[21.677073] (-) EventReactorShutdown: {}

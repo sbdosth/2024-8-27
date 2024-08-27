@@ -1,0 +1,7 @@
+[01m[K/home/hhh/role/src/role1/src/role1.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/role1_node.dir/build.make:76：CMakeFiles/role1_node.dir/src/role1.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/role1_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
